@@ -14,3 +14,6 @@ rvm use 1.9.3 --default
 curl -Lo- http://bit.ly/janus-bootstrap | bash
 cp ~/.vimrc.after ~/
 gem install rails heroku taps pg git_remote_branch foreman sinatra
+git clone git@github.com:alexkroman/dotfiles-thoughtbot.git
+cd dotfiles-thoughtbot
+./install.sh
