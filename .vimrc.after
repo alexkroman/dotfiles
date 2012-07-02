@@ -1,3 +1,4 @@
 set guioptions-=T
 set background=dark
 colorscheme vividchalk
+nmap <Leader>dt :! rdebug -I"lib:test" %<CR>
